@@ -1,5 +1,4 @@
 /************************* TAG SELECTORS **************************/
-
 body {
   background-color: #F5F2E7;
 }
@@ -10,20 +9,43 @@ hr {
   border-width: 5px;
   width: 15%;
 }
-h1 { color: #2666CF; }
-h3 { color: #2666CF; }
-h4 { color: #2666CF; }
-p { color: #395B64; }
-td { color: #395B64; }
-label { color: #395B64; }
+h1 {
+  color: #2666CF;
+}
+h3 {
+  color: #2666CF;
+}
+h4 {
+  color: #2666CF;
+}
+p {
+  color: #395B64;
+}
+td {
+  color: #395B64;
+}
+label {
+  color: #395B64;
+}
+/************************CLASS SELECTORS (overrides the tag selector,
+                         can be used multiple times inside the page,
+                         an element can contain multiple classes,
+                         use when similar elements need to have the same style)***********************/
 
-
-/************************CLASS SELECTORS***********************/
-
-.hobbyHeader{
+.hobbies { /** to call the class use a (.) before the name of the class **/
   text-align: center;
 }
 
-.hobby1{
+.headingsMainPage {
+  text-align: center;
+}
+
+
+/************************ID SELECTORS (overrides the tag selector,
+                         can only be used once inside the page,
+                         an element can contain only one ID;
+                         use when one elemet needs to have a different style than the other)***********************/
+
+#hobbyHeader { /** to call the ID use (#) before the name of the ID **/
   text-align: center;
 }
