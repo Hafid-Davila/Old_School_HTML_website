@@ -19,3 +19,11 @@ label { color: #395B64; }
 
 
 /************************CLASS SELECTORS***********************/
+
+.hobbyHeader{
+  text-align: center;
+}
+
+.hobby1{
+  text-align: center;
+}
