@@ -6,8 +6,8 @@ hr {
   border-style: none;
   border-top-style: dotted;
   border-color: #2C3333;
-  border-width: 5px;
-  width: 15%;
+  border-width: 2px;
+  width: 100%;
 }
 h1 {
   color: #2666CF;
@@ -36,9 +36,6 @@ label {
   text-align: center;
 }
 
-.headingsMainPage {
-  text-align: center;
-}
 
 
 /************************ID SELECTORS (overrides the tag selector,
